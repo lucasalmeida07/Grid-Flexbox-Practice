@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Practice Grid</title>
+</head>
+    <header class="header">
+        <ul class="menu">
+            <li><button type="button" id="home_button" class="home">Home</button></li>
+            <li><button type="button" id="about_button" class="about">Sobre</button></li>
+            <li><button type="button" id="bepart_button" class="bepart">Faça Parte</button></li>
+            <li><button type="button" id="contact_button" class="contact">Contato</button></li>
+        </ul>
+        <hr>
+    </header>
+    <main>
+        <article class="presentation home">
+            <div class="quote">
+                <h1>"Pensar o passado para compreender o presente e idealizar o futuro."</h1>
+                <cite>-Heródoto</cite>
+            </div>
+            <div class="content">
+                <div class="ptext">
+                    <h1>Seja bem-vindo à History Library!</h1>
+                    <p>
+                        Somos um site dedicado à preservação da história,
+                        dos grandes feitos do homem e das suas contendas também.
+                    </p>
+                    <p> 
+                        Aqui, você irá encontrar conteúdo sobre (quase) tudo
+                        da história humana, desde a Mesopotâmia até o final do
+                        século passado.
+                    </p>
+                </div>
+                <div class="lady1">
+                    <img src="./assets/images/victorisn_lsdy_1.png" alt="victorian lady picture">
+                </div>
+            </div>
+        </article>
+        <div class="painting">
+
+        </div>
+        <article id="sobre" class="mission about">
+            <div class="m_part1">
+                <img src="./assets/images/vitruvian_man.png" alt="Napoleon on horse painting">
+                <div class="ptext">
+                    <h1>Nosso Objetivo é Ensinar</h1>
+                    <p>
+                        Temos como missão entregar material de qualidade acadêmica sobre os assuntos
+                        abordados.
+                    </p>
+                    <p>
+                        Buscamos também disponibilizar bibliografia importante e pertinente sobre os assuntos
+                        sendo ela de vários níveis de entendimento.
+                    </p>
+                </div>
+            </div>
+            <div class="m_part2">
+                <div class="ptext">
+                    <p>
+                        Acreditamos que a história é um dos componentes mais importantes na educação
+                        do homem. Sem o conhecimento da história, seja da sua família, seu país e,
+                        também, da própria humanidade, a este será impossível compreender o mundo em
+                        que vive.
+                    </p>
+                    <p>
+                        De onde veio a tecnologia que nos rodeia? De onde vieram as pessoas que moram
+                        perto de nós? De onde nós viemos? Todas essas são perguntas que história trata
+                        e por isso acreditamos que essa é uma das maiores preocupações da educação.
+                    </p>
+                </div>
+                <img src="./assets/images/old_books_1.png" alt="livros velhos">
+            </div>
+        </article>
+        <article id="faca_parte" class="calling bepart">
+            <div class="ptext">
+                <h1>Venha Fazer Parte desse Projeto</h1>
+                <p>
+                    Se Inscreva em Nosso Programa de Apredizado e receba no 
+                    seu e-mail um roadmap de estudo dos nossos conteúdos.
+                </p>
+                <p>
+                    Faça parte desse projeto junto de milhares de estudantes
+                    que desbravam a cada dia as linhas da história!
+                </p>
+            </div>
+            <div class="form">
+                <form method="POST">
+                    <input type="text" placeholder="Nome" name="name" id="id" autocomplete="off">
+                    <input type="text" placeholder="E-mail" name="email" id="email" autocomplete="off">
+                    <button type="submit" disabled> Quero Me Inscrever!</button>
+                </form>
+            </div>
+        </article>
+    </main>    
+    <footer id="contato" class="footer contact">
+       <div class="informacoes">
+            <p>E-mail:history.library@proton.me</p>
+       </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
